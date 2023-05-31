@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>慕春飲料店</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-color: #eeecea;">
+  <div id="top-bar" class="header-top navbar-dark">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-none d-md-flex justify-content-start">
+            <ul class="nav">
+                <!-- Insert left content here -->
+            </ul>
+        </div>
+
+        <div class="d-none d-md-flex justify-content-center">
+            <ul class="nav">
+                <!-- Insert center content here -->
+            </ul>
+        </div>
+
+        <div class="d-none d-md-flex justify-content-end">
+            <ul class="nav">
+                <li class="nav-item">
+                    <div class="d-flex">
+                        <a href="https://www.facebook.com/pg/hechaloutea/" target="_blank" class="nav-link p-2" title="Facebook"><i class="icon-facebook"></i></a>
+                        <a href="https://www.instagram.com/HechalouTea/" target="_blank" class="nav-link p-2" title="Instagram"><i class="icon-instagram"></i></a>
+                        <a href="mailto:hechaloutea@gmail.com" class="nav-link p-2" title="E-mail"><i class="icon-envelop"></i></a>
+                        <a href="tel:02-2776-1101" target="_blank" class="nav-link p-2" title="Phone"><i class="icon-phone"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="d-flex d-md-none justify-content-center">
+            <ul class="nav">
+                <li class="nav-item">
+                    <div class="d-flex">    
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+    <div class="container d-flex justify-content-between">
+      <h1 class="ms-3" ><img src="{{ url_for('static', filename='logo6.png') }}" alt="圖片描述"></h1>
+      <div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index_page">HOME首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="drink_page">熱門飲料</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_page">關於我們</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop_page">門市資訊</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="franchise_page">加盟資訊</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4"  style="color: #2c2c2c">關於我們</h2>
+      <p>慕春職人茶飲創始於西元2020年，慕春為夏天的最後一個階段，指農曆三月，正是我們創業的時間點來做為品牌命名。
+      </p>
+      </div>
+
+  </section>
+  <br>
+  <br>
+  <div class="text-center ">
+    <img src="{{ url_for('static', filename='about1.jpg') }}" alt="關於我們" width="1200" class="img-fluid">
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="text-center ">
+    <img src="{{ url_for('static', filename='about3.jpg') }}" alt="關於我們" width="1200" class="img-fluid">
+  </div>
+  <br>
+  <br>
+  
+  <div id="gap-1039928342" class="gap-element clearfix" style="display:block; height:auto;">
+		
+    <style scope="scope">
+    
+    #gap-1039928342 {
+      padding-top: 140px;
+    }
+    </style>
+      </div>
+  
+
+  
+      <section class="container my-5" >
+    
+        <footer id="footer" class="footer-wrapper ">
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-lg-4 d-flex flex-column align-items-center mb-5 mb-lg-0">
+                <img src="{{ url_for('static', filename='logo7.png') }}" alt="圖片描述" height="120" class="mb-3">
+              </div>
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <h5 class="mb-3">關於</h5>
+                <p>美好的事物值得等待</p>
+                <p>歷經了743天，<br>
+                兩年又十三天的尋尋覓覓，<br>
+                終於，找到了我們最有信心的紅茶。</p>
+              </div>
+              <div class="col-lg-4">
+                <h5 class="mb-3">聯繫</h5>
+                <p>地址：高雄市小港區二苓路117號</p>
+                <p>服務專線：0909 820 661</p>
+                <p>加盟專線：0909 820 661</p>
+              </div>
+            </div>
+          </div>
+          
+        
+          <div class="footer-bottom text-center py-3" >
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <p>Copyright 2023 ©  慕春職人茶飲.  / MUCHUN Tea</p>
+                </div>
+                <div class="col-lg-6">
+                  <p>Powered by M</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        
+  
+  </section>
+  
+</body>
+</html>
